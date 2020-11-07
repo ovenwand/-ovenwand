@@ -1,7 +1,7 @@
 {
   "name": "@ovenwand/svelte-sidebar",
   "description": "Sidebar component from Svelte",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Sibbe Heijne <sibbe@ovenwand.com>",
   "license": "WTFPL",
   "keywords": [
@@ -13,10 +13,9 @@
   "svelte": "src/index.ts",
   "module": "src/index.ts",
   "main": "src/index.ts",
-  "browser": "dist/",
   "scripts": {
     "test": "mochapack --require jsdom-global/register 'test/**/*.spec.ts'",
-    "test:mocha": "mocha --require ts-node/register test/**/*.spec.ts"
+    "release": "yarn test && yarn publish"
   },
   "peerDependencies": {
     "svelte": "^3.0.0",
