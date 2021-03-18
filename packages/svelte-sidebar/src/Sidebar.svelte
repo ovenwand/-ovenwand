@@ -1,7 +1,8 @@
 <script lang="ts">
 		import { createClassName } from '@ovenwand/util/dist/element';
 		import { expand as expandTransition } from '@ovenwand/util/dist/svelte/transition';
-    import { store, DEFAULT_ID, SidebarStore } from './store';
+		import type { SidebarStore } from './store';
+    import { store, DEFAULT_ID } from './store';
 
 		export let id: string = DEFAULT_ID;
     let className: string = '';
