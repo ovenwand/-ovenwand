@@ -7,9 +7,13 @@
     "declaration": true,
     "strict": true
   },
+
+  "allowTsInNodeModules": true,
+
   "include": [
     "src/**/*"
   ],
+
   "exclude": [
     "node_modules",
     "dist"

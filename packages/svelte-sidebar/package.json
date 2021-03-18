@@ -1,7 +1,7 @@
 {
   "name": "@ovenwand/svelte-sidebar",
   "description": "Sidebar component from Svelte",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Sibbe Heijne <sibbe@ovenwand.com>",
   "license": "WTFPL",
   "keywords": [
@@ -22,7 +22,7 @@
     "typescript": "^4.0.5"
   },
   "dependencies": {
-    "@ovenwand/util": "^0.0.0"
+    "@ovenwand/util": "^0.0.1"
   },
   "devDependencies": {
     "@testing-library/svelte": "^3.0.0",
