@@ -1,4 +1,5 @@
-import { Readable, writable, Writable } from 'svelte/store';
+import type { Readable, Writable } from 'svelte/store';
+import { writable } from 'svelte/store';
 
 export interface SidebarState {
     expand: boolean;
